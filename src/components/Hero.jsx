@@ -1,5 +1,5 @@
 import React from "react";
-import hero from "../img/heroimg.png";
+import hero from "../img/heroimg.webp";
 import { motion } from "framer-motion";
 import { BsArrowRight } from "react-icons/bs";
 
