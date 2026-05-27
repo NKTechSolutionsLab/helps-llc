@@ -1,5 +1,5 @@
 import React from "react";
-import hero from "../img/heroimg.webp";
+import hero from "../img/heroimg.png";
 import { motion } from "framer-motion";
 import { BsArrowRight } from "react-icons/bs";
 
@@ -41,7 +41,7 @@ function Hero() {
         className="md:flex items-center"
       >
         {/* LEFT CONTENT */}
-        <div className="md:w-[55%] w-[88%] lg:ml-28 md:ml-20 ml-10">
+        <div className="md:w-[55%] w-[88%] lg:ml-32 md:ml-20 ml-10">
           <motion.h1
             variants={fadeUp1}
             className="text-white font-[Cinzel] text-[40px] md:text-5xl lg:text-8xl font-light "
@@ -58,14 +58,14 @@ function Hero() {
 
           <motion.h1
             variants={fadeUp1}
-            className="text-white font-[Cinzel] lg:text-6xl md:text-5xl text-2xl font-light md:my-3"
+            className="text-white font-[Cinzel] lg:text-5xl md:text-5xl text-2xl font-light md:my-3"
           >
             Your Focus On The Work
           </motion.h1>
 
           <motion.p
             variants={fadeUp1}
-            className="text-[#D4A017] md:text-2xl hidden md:block"
+            className="text-[#D4A017] md:text-xl hidden md:block"
           >
             PROPERTY LOGISTICS & PROJECT CONCIERGE
           </motion.p>
@@ -95,7 +95,7 @@ function Hero() {
                   duration-300
                   rounded-lg
                   text-md
-                  lg:text-xl
+                  lg:text-lg
                   lg:my-8
                   cursor-pointer
               "
@@ -123,7 +123,7 @@ function Hero() {
                   duration-300
                   rounded-lg
                   text-lg
-                  lg:text-xl
+                  
                   
                   lg:my-8
               "

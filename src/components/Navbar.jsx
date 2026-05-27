@@ -12,7 +12,7 @@ function Navbar() {
       <div className="flex item-center justify-between ">
         <div className="flex">
           <img src={logo} className="w-24 lg:w-32" alt="LOGO" />
-          <h1 className="my-5 font-[Cinzel]  font-thin tracking-[0.2em] text-[25px] text-[#AA7C11] lg:text-4xl md:text-3xl mt-7  lg:mt-11 ">
+          <h1 className="my-5 font-[Cinzel]  font-thin tracking-[0.2em] text-[25px] text-[#AA7C11] lg:text-4xl md:text-3xl mt-7 lg:mt-11">
             H.E.L.P.S
           </h1>
         </div>
