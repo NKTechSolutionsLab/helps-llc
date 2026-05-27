@@ -41,7 +41,7 @@ function Hero() {
         className="md:flex items-center"
       >
         {/* LEFT CONTENT */}
-        <div className="md:w-[55%] w-[88%] lg:ml-32 md:ml-20 ml-5">
+        <div className="md:w-[55%] w-[88%] lg:ml-32 md:ml-20 ml-8">
           <motion.h1
             variants={fadeUp1}
             className="text-white font-[Cinzel] text-[40px] md:text-5xl lg:text-8xl font-light "
