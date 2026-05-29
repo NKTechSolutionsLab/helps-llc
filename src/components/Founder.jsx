@@ -1,23 +1,24 @@
 import React from 'react'
-import founder from '../img/founder.png'
+import founder from '../img/founder.webp'
 
 function Founder() {
   return (
-    <section className="w-full bg-[#0B0B0B] py-24 overflow-hidden">
+    <section id='founder' className="w-full bg-[#0B0B0B] py-24 overflow-hidden">
       <div className="max-w-7xl mx-5 lg:mx-14 px-6 md:px-10 lg:px-16">
 
-        <div className="md:flex  gap-16 ">
+        <div className="md:flex  md:gap-20 lg:gap-28">
 
           {/* LEFT IMAGE */}
-          <div className="relative">
+          <div className="relative -ml-5">
 
-            <div className="absolute inset-0 border border-[#D4A017]/20 rounded-3xl translate-x-4 translate-y-4"></div>
+            <div className=" border border-[#D4A017]/20 rounded-3xl translate-x-4 translate-y-4 mb-10 " >
 
             <img
               src={founder}
               alt="Founder"
-              className="relative rounded-3xl object-cover w-full mb-5"
-            />
+              className="relative rounded-3xl object-cover w-full  p-2"
+              />
+              </div>
 
           </div>
 

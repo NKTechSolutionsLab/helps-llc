@@ -41,7 +41,7 @@ function Hero() {
         className="md:flex items-center"
       >
         {/* LEFT CONTENT */}
-        <div className="md:w-[55%] w-[88%] lg:ml-32 md:ml-20 ml-8">
+        <div className="md:w-[55%] w-[88%] lg:ml-28 md:ml-20 ml-8">
           <motion.h1
             variants={fadeUp1}
             className="text-white font-[Cinzel] text-[40px] md:text-5xl lg:text-8xl font-light "
@@ -90,7 +90,7 @@ function Hero() {
                   text-[#D4A017]
                   hover:bg-[#D4A017]
                   hover:text-black
-                  hover:translate-y-[2px]
+                  
                   transition-all
                   duration-300
                   rounded-lg
@@ -118,7 +118,7 @@ function Hero() {
                   bg-[#0A0A0A]
                   text-[#D4A017]
                   
-                  hover:-translate-y-[2px]
+                  
                   transition-all
                   duration-300
                   rounded-lg
@@ -145,7 +145,7 @@ function Hero() {
             delay: 0.7,
             ease: [0.3, 0.1, 0.3, 1],
           }}
-          className="md:w-[45%] lg:w-[47%] w-[80%] my-10 mx-8 rounded-2xl will-change-transform "
+          className="md:w-[45%] lg:w-[47%] w-[80%] my-10 mx-8 lg:mx-16 rounded-2xl will-change-transform "
         />
       </motion.div>
     </>

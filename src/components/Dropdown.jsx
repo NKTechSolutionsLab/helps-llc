@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { RxCross1 } from "react-icons/rx";
-import logo from "../img/logo3.png";
+import logo from "../img/logo.webp";
 import { BsArrowRight } from "react-icons/bs";
 
 function Dropdown({ isOpen, setIsOpen }) {
@@ -13,20 +13,20 @@ function Dropdown({ isOpen, setIsOpen }) {
   ];
 
   return (
-    <div className="absolute bg-[#0B0B0B] w-full font-light lg:hidden z-20">
+    <div className="absolute top-0 bg-[#0B0B0B] w-full font-light lg:hidden z-20">
       {isOpen ? (
         <>
-          <div className="flex item-center justify-between m-1">
+          <div className="flex item-center justify-between">
             <div className="flex">
-              <img src={logo} className="w-24 lg:w-24" alt="LOGO" />
-              <h1 className="my-5 font-[Cinzel]  font-thin tracking-[0.2em] text-[25px] text-[#AA7C11] lg:text-[30px] md:text-3xl lg:mt-7 mt-7 ">
+              <img src={logo} className="lg:w-[17%] md:w-[40%] lg:h-[10%] w-[60%] lg:-ml-10 -ml-4" alt="LOGO" />
+              {/* <h1 className="my-5 font-[Cinzel]  font-thin tracking-[0.2em] text-[25px] text-[#AA7C11] lg:text-[30px] md:text-3xl lg:mt-7 mt-7 ">
                 H.E.L.P.S
-              </h1>
+              </h1> */}
             </div>
             <RxCross1
               size={30}
               color="gray"
-              className="my-5 mx-3 lg:hidden cursor-pointer"
+              className="w-[50%] md:w-[30%] my-5 mx-3 mb-5 md:mx-10 lg:hidden cursor-pointer"
               onClick={() => {
                 setIsOpen(false);
               }}
@@ -52,7 +52,7 @@ function Dropdown({ isOpen, setIsOpen }) {
                       items-center
                       justify-center
                       gap-2
-                      mt-5
+                      mt-2
                       border
                      border-[#D4A017]
                       text-[#D4A017]
@@ -60,10 +60,9 @@ function Dropdown({ isOpen, setIsOpen }) {
                       duration-300
                       rounded-lg
                       text-lg
-                      lg:text-xl
-                      font-medium
+                      font-light
                       lg:my-8
-                       py-3 px-5 ml-20 my-5
+                      py-3 px-5 ml-20 my-5
                   "
             >
               Let's Talk

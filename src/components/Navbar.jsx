@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../img/logo3.png";
+import logo from "../img/logo.webp";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { BsArrowRight } from "react-icons/bs";
 import { useState } from "react";
@@ -9,14 +9,14 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <>
-      <div className="flex item-center justify-between ">
-        <div className="flex">
-          <img src={logo} className="w-24 lg:w-32" alt="LOGO" />
-          <h1 className="my-5 font-[Cinzel]  font-thin tracking-[0.2em] text-[25px] text-[#AA7C11] lg:text-4xl md:text-3xl mt-7 lg:mt-11">
+      <div className="flex items-center justify-between ">
+
+        <img src={logo} className="lg:w-[17%] md:w-[30%] lg:h-[10%] w-[50%] md:-ml-8 -ml-4 mb-5 " alt="LOGO" />
+        {/* <h1 className="my-5 font-[Cinzel]  font-thin tracking-[0.2em] text-[25px] text-[#AA7C11] lg:text-4xl md:text-3xl mt-7 lg:mt-11">
             H.E.L.P.S
-          </h1>
-        </div>
-        <div className="hidden lg:flex items-center gap-16 mx-[19%] text-xl ">
+          </h1> */}
+
+        <div className="hidden lg:flex items-center gap-20 mx-[19%] text-xl ">
           <a
             href="#service"
             className="text-[#AA7C11] font-[Cinzel] hover:text-[#142F17] transition-all duration-300 text-2xl"
@@ -68,7 +68,7 @@ function Navbar() {
         <RxHamburgerMenu
           size={36}
           color="#D4A017"
-          className="mb-5 mt-7 mx-3  lg:hidden cursor-pointer"
+          className="mb-5  mx-3 md:mx-10 lg:hidden cursor-pointer"
           onClick={() => setIsOpen(true)}
         />
         <Dropdown isOpen={isOpen} setIsOpen={setIsOpen} />
