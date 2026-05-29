@@ -3,7 +3,7 @@ import founder from '../img/founder.webp'
 
 function Founder() {
   return (
-    <section id='founder' className="w-full bg-[#0B0B0B] py-24 overflow-hidden">
+    <section id='founder' className="w-full bg-[#0B0B0B] py-20 overflow-hidden">
       <div className="max-w-7xl mx-5 lg:mx-14 px-6 md:px-10 lg:px-16">
 
         <div className="md:flex  md:gap-20 lg:gap-28">
