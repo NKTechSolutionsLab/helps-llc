@@ -3,27 +3,27 @@ import founder from '../img/founder.webp'
 
 function Founder() {
   return (
-    <section id='founder' className="w-full bg-[#0B0B0B] py-20 overflow-hidden">
+    <section id='founder' className="w-full bg-[#0B0B0B] md:py-28  overflow-hidden">
       <div className="max-w-7xl mx-5 lg:mx-14 px-6 md:px-10 lg:px-16">
 
-        <div className="md:flex  md:gap-20 lg:gap-28">
+        <div className="md:flex md:gap-20 lg:gap-28">
 
           {/* LEFT IMAGE */}
           <div className="relative -ml-5">
 
             <div className=" border border-[#D4A017]/20 rounded-3xl translate-x-4 translate-y-4 mb-10 " >
 
-            <img
-              src={founder}
-              alt="Founder"
-              className="relative rounded-3xl object-cover w-full  p-2"
+              <img
+                src={founder}
+                alt="Founder"
+                className="relative rounded-3xl object-cover w-full  p-2"
               />
-              </div>
+            </div>
 
           </div>
 
           {/* RIGHT CONTENT */}
-          <div>
+          <div className='lg:mt-7 mt-5'>
 
             <p className="text-[#D4A017] uppercase tracking-[0.3em] text-sm md:text-base mb-6 font-light">
               Founder
